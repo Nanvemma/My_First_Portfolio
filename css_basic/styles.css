@@ -1,0 +1,36 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+   
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /
+}
+
+article {
+    flex: 2; 
+    overflow-y: auto; 
+    padding: 10px;
+}
+
+aside {
+    flex: 1; 
+    overflow-y: auto; 
+}
+
+header, footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    border-bottom: 2px solid #ccc;
+}
+
+footer {
+    border-top: 2px solid #ccc;
+}
