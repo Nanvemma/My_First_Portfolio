@@ -2,6 +2,9 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+
 }
    
 main {
@@ -22,7 +25,8 @@ aside {
 }
 
 header, footer {
-    background-color: #f0f0f0;
+    background-color: #4CAF50; 
+    color: white; /
     padding: 10px;
     text-align: center;
 }
